@@ -1,22 +1,13 @@
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/support-ukraine.svg?t=1" />](https://supportukrainenow.org)
-
-# A Chat component built using livewire.
+# livewire-chat
+## A Chat component built using livewire.
 
 [![Latest Version on Packagist](https://img.shields.io/packagist/v/dev-chahal/livewire-chat.svg?style=flat-square)](https://packagist.org/packages/dev-chahal/livewire-chat)
 [![GitHub Tests Action Status](https://img.shields.io/github/workflow/status/dev-chahal/livewire-chat/run-tests?label=tests)](https://github.com/dev-chahal/livewire-chat/actions?query=workflow%3Arun-tests+branch%3Amain)
 [![GitHub Code Style Action Status](https://img.shields.io/github/workflow/status/dev-chahal/livewire-chat/Fix%20PHP%20code%20style%20issues?label=code%20style)](https://github.com/dev-chahal/livewire-chat/actions?query=workflow%3A"Fix+PHP+code+style+issues"+branch%3Amain)
 [![Total Downloads](https://img.shields.io/packagist/dt/dev-chahal/livewire-chat.svg?style=flat-square)](https://packagist.org/packages/dev-chahal/livewire-chat)
 
-This is where your description should go. Limit it to a paragraph or two. Consider adding a small example.
+This is a simple package that provides you with a livewire chat component and migrations for it.
 
-## Support us
-
-[<img src="https://github-ads.s3.eu-central-1.amazonaws.com/livewire-chat.jpg?t=1" width="419px" />](https://spatie.be/github-ad-click/livewire-chat)
-
-We invest a lot of resources into creating [best in class open source packages](https://spatie.be/open-source). You can support us by [buying one of our paid products](https://spatie.be/open-source/support-us).
-
-We highly appreciate you sending us a postcard from your hometown, mentioning which of our package(s) you are using. You'll find our address on [our contact page](https://spatie.be/about-us). We publish all received postcards on [our virtual postcard wall](https://spatie.be/open-source/postcards).
 
 ## Installation
 
@@ -56,7 +47,7 @@ php artisan vendor:publish --tag="livewire-chat-views"
 
 ```php
 $livewireChat = new DevChahal\LivewireChat();
-echo $livewireChat->echoPhrase('Hello, DevChahal!');
+echo $livewireChat->echoPhrase('Hello, dev-chahal!');
 ```
 
 ## Testing
