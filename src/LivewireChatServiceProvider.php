@@ -2,9 +2,9 @@
 
 namespace DevChahal\LivewireChat;
 
+use DevChahal\LivewireChat\Commands\LivewireChatCommand;
 use Spatie\LaravelPackageTools\Package;
 use Spatie\LaravelPackageTools\PackageServiceProvider;
-use DevChahal\LivewireChat\Commands\LivewireChatCommand;
 
 class LivewireChatServiceProvider extends PackageServiceProvider
 {
