@@ -2,9 +2,9 @@
 
 namespace DevChahal\LivewireChat\Tests;
 
+use DevChahal\LivewireChat\LivewireChatServiceProvider;
 use Illuminate\Database\Eloquent\Factories\Factory;
 use Orchestra\Testbench\TestCase as Orchestra;
-use DevChahal\LivewireChat\LivewireChatServiceProvider;
 
 class TestCase extends Orchestra
 {
