@@ -47,7 +47,7 @@ php artisan vendor:publish --tag="livewire-chat-views"
 
 ```php
 $livewireChat = new DevChahal\LivewireChat();
-echo $livewireChat->echoPhrase('Hello, DevChahal!');
+echo $livewireChat->echoPhrase('Hello, dev-chahal!');
 ```
 
 ## Testing
