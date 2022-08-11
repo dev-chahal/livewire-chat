@@ -8,7 +8,8 @@ use Spatie\LaravelPackageTools\PackageServiceProvider;
 
 class LivewireChatServiceProvider extends PackageServiceProvider
 {
-    public function boot() {
+    public function boot()
+    {
         Livewire::component('livewire-chat', DevChahal\LivewireChat\Livewire\LivewireChat::class);
     }
 
